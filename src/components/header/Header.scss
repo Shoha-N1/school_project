@@ -1,0 +1,31 @@
+body {
+  background-color: #dfdada;
+}
+
+nav {
+  margin: 10px 30px;
+  padding: 0 50px;
+  border-radius: 50px;
+  height: 45px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.reg {
+  margin-left: 400px;
+}
